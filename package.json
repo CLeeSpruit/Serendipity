@@ -1,0 +1,51 @@
+{
+    "name": "@cspruit/serendipity",
+    "version": "1.0.0",
+    "description": "Math.Random for the rest of us",
+    "main": "dist/serendipity.js",
+    "files": [
+        "dist/**/*",
+        "index.d.ts"
+    ],
+    "scripts": {
+        "build": "npm run flush && webpack-cli",
+        "lint": "xo",
+        "test": "nyc --reporter=lcov ava",
+        "flush": "rm -r ./dist || true",
+        "semantic-release": "semantic-release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CassandraSpruit/Serendipity.git"
+    },
+    "keywords": [
+        "library",
+        "javascript",
+        "random",
+        "generator"
+    ],
+    "author": "Cassandra Spruit",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/CassandraSpruit/Serendipity/issues"
+    },
+    "homepage": "https://github.com/CassandraSpruit/Serendipity#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "@semantic-release/changelog": "^3.0.6",
+        "@semantic-release/git": "^7.0.18",
+        "ava": "^2.4.0",
+        "babel-loader": "^8.0.6",
+        "browser-env": "^3.3.0",
+        "codecov": "^3.6.1",
+        "nyc": "^14.1.1",
+        "semantic-release": "^15.14.0",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10",
+        "xo": "^0.25.3"
+    },
+    "xo": {
+        "env": "browser"
+    }
+}
