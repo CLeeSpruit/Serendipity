@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/CassandraSpruit/Serendipity/branch/master/graph/badge.svg)](https://codecov.io/gh/CassandraSpruit/Serendipity)
 [![npm](https://img.shields.io/npm/v/@cspruit/serendipity)](https://www.npmjs.com/package/@cspruit/serendipity)
 [![license](https://img.shields.io/github/license/CassandraSpruit/Serendipity)](https://github.com/CassandraSpruit/Serendipity/blob/master/LICENSE)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo) [![Greenkeeper badge](https://badges.greenkeeper.io/CassandraSpruit/Serendipity.svg)](https://greenkeeper.io/)
 
 # Serendipity
 _Math.random() for the rest of us._
