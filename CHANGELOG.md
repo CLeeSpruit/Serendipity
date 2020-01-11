@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/CassandraSpruit/Serendipity/compare/v1.0.1...v1.0.2) (2020-01-11)
+
+
+### Bug Fixes
+
+* **build:** switched to microbundle ([d155bb5](https://github.com/CassandraSpruit/Serendipity/commit/d155bb53376483aab6d7205462f0295a82beb123))
+
 ## [1.0.1](https://github.com/CassandraSpruit/Serendipity/compare/v1.0.0...v1.0.1) (2020-01-11)
 
 
