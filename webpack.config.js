@@ -2,7 +2,7 @@ const path = require('path');
 
 const config = {
 	entry: {
-		zephyr: './serendipity.js'
+		serendipity: './serendipity.js'
 	},
 	module: {
 		rules: [
