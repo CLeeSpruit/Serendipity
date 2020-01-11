@@ -9,12 +9,27 @@ _Math.random() for the rest of us._
 
 Serendipity is a javascript library that generates custom random numbers.
 
+Note that this currently just uses Math.random() for psuedo-random generation. If you need closer to true random, there are plenty and plenty of libraries made by people who know their stuff far better. 😉 This was created because I was stick of creating the same random function over and over again.
+
 ## Installation
 
 - Install by running ```npm install --save-dev @cspruit/serendipity``` in the same directory as the package.json file lives.
 
 ## Usage
+### Random
+- Generates a random number based off of Math.random
+    - max : number - optional - Max range, exclusive.
+    - min : number - optional - Min range, inclusive
+    - useFractions - optional - Unless this is true, will return an integer
 
+```javascript
+import {random} from '@cspruit/serendipity';
+
+const randNormal = random(); // Returns 0-1, like Math.random()
+const randMax = random(5); // Returns 0-4
+const randMin = random(5, 1); // Returns 1-4
+const randFloat = random(5, 1, true); // Returns a float from 1-4
+```
 
 ## Contributing
 All contributions, suggestions, and issues are welcome!
