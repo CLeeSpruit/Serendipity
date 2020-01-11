@@ -1,6 +1,6 @@
 {
     "name": "@cspruit/serendipity",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Math.Random for the rest of us",
     "main": "dist/serendipity.js",
     "files": [
