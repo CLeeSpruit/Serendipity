@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CassandraSpruit/Serendipity/compare/v1.0.0...v1.0.1) (2020-01-11)
+
+
+### Bug Fixes
+
+* **npm:** manually update the package number ([f81ce1c](https://github.com/CassandraSpruit/Serendipity/commit/f81ce1c388198286fe6f3038a4e1653673f386da))
+
 # 1.0.0 (2020-01-11)
 
 
