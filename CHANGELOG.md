@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CassandraSpruit/Serendipity/compare/v1.0.2...v1.0.3) (2020-01-19)
+
+
+### Bug Fixes
+
+* update package-lock ([9e6bc9e](https://github.com/CassandraSpruit/Serendipity/commit/9e6bc9e3dac33b7fa8ddb881ecfd89fd31bdaae9))
+
 ## [1.0.2](https://github.com/CassandraSpruit/Serendipity/compare/v1.0.1...v1.0.2) (2020-01-11)
 
 
