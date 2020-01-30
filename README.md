@@ -9,7 +9,7 @@ _Math.random() for the rest of us._
 
 Serendipity is a javascript library that generates custom random numbers.
 
-Note that this currently just uses Math.random() for psuedo-random generation. If you need closer to true random, there are plenty and plenty of libraries made by people who know their stuff far better. 😉 This was created because I was stick of creating the same random function over and over again.
+Note that this currently just uses Math.random() for psuedo-random generation. If you need closer to true random, there are plenty of libraries made by people who know their stuff far better. 😉 This was created because I was sick of creating the same random function over and over again.
 
 ## Installation
 
